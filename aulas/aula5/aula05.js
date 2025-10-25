@@ -10,4 +10,5 @@ console.log(a < b); // menor que
 console.log(a >= c); // maior ou igual a
 console.log(a <= c); // menor ou igual a
 console.log(a == c); // igual a
+console.log(a === c); // estritamente igual a(tipagem)
 console.log(a != b); // diferente de

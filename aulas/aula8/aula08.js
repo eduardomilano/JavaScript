@@ -1,5 +1,5 @@
 "use strict";
-//Condicionais
+//Condicionais ou Loops
 //For
 for(let i=0; i < 10; i++){
     console.log(i);

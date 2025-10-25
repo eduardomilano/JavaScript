@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 15 - JavaScript</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+        .botao-iniciar {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            margin-right: 10px;
+        }
+        .botao-parar {
+            background-color: #f44336;
+            color: white;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Eventos de Tempo</h1>
+    <button onclick="ativarContagem()" id="iniciar" class="botao-iniciar">Iniciar</button>
+    <button onclick="pararContagem()" id="parar" class="botao-parar">Parar</button>
+    <script src="aula15.js"></script>
+</body>
+</html>
